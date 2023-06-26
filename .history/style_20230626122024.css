@@ -77,12 +77,9 @@ img{
     margin-left: 30%;  
 }
 img.big{
-    width: 80vw;
+    width: 0vw;
     height: auto;
-    margin-left: 10%;  
-}
-img.bottommarg{
-    margin-bottom: 60px; 
+    margin-left: 30%;  
 }
 .blur{
     filter: blur(1.5rem);

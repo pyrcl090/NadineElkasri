@@ -81,9 +81,7 @@ img.big{
     height: auto;
     margin-left: 10%;  
 }
-img.bottommarg{
-    margin-bottom: 60px; 
-}
+img.bottommarg
 .blur{
     filter: blur(1.5rem);
 }
