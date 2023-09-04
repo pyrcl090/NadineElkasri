@@ -16,28 +16,22 @@
         <span class="en">Nadine Elkasri</span><br>
         </a>
     </p>
-    <br>
-    <br>
-    <p><span class="mono">Exhibitions</span><br></a></p>
+    <img src="NADINE.png" alt="">
     
+    
+
     <p class="Exhibition disparait">
+        <span class="mono">Morroccan-American Artist born 2002</span><br>
+        <span class="mono">Nadine Elkasri's works explore the tensions between her own personal history and her Moroccan ancestry. She aims to depict a space in between two cultures and explores the relationship between longing and belonging. Her paintings are heavily influenced by traditional Moroccan and Islamic art and each piece is an expression of her personal journey to fit herself into a world that she is both physically and emotionally absent from. </span><br><br>
         <a href="index.html">
         <span class="ar">القصر</span><br>
         <span class="en">The Castle</span><br>
         <span class="en">Olive Tjaden Experimental Gallery</span><br>
         <span class="mono">2023 Feburary 20 - 24</span><br></a>
     </p>
-    <div id="parent">
-        <ul class="img__container"></ul>
-  
-    <template id="image-block">
-          <img class="arenaimgs" src="" alt="" />
-    </template>
-  </div>
-  <br>
-  <br>
-  <p><span class="mono">Paintings</span><br></a></p>
-
+    <br>
+    <br>
+    <p><span class="mono">Exhibitions</span><br></a></p>
     <p class="TVRoom disparait">
         <a href="index.html">
         <span class="ar">غرفة التلفاز</span><br>
@@ -73,36 +67,7 @@
         <span class="en">Untitled</span><br>
         <span class="mono">2022  Oil on canvas, wood framing [26in x 20in] </span></a>
     </p>
-      <!-- are.na api load imgs -->
-  <script>
-  
-  
-    window.addEventListener('DOMContentLoaded', () => {
-    
-      fetch(`https://api.are.na/v2/channels/photos-i3tei04xvz8?per=100`, {cache: 'no-store'})
-      .then(response => response.json())
-      .then(data => {
-        renderBlocks(data.contents);
-        runImages();
-      });
-    
-      
-    
-    const renderBlocks = (blocks) => {
-      blocks.forEach((block, index) => {
-        if (block.image && block.image.large.url) {
-          let tmpl = document.getElementById('image-block');
-          let clone = tmpl.content.cloneNode(true);
-          clone.querySelector('img').src = block.image.large.url;
-          document.querySelector('ul').appendChild(clone);
-        }
-      });
-    };
-    
-      const runImages = () => {
-      const ImgContainer = document.querySelector('.img__container');
-    };
-    });  
-    </script>
+
+<script src="" async defer></script>
 </body>
 </html>

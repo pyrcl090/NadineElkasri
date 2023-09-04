@@ -26,15 +26,17 @@ body{
 }
 p{
     color: red;
-    text-align: right;
-    padding-left: 1%;
-    padding-right: 1%;
-    font-size: 1.1em;
-    line-height: 1em; 
-    width: fit-content;
+    text-align: left;
+    padding-left: 2%;
+    font-size: 1em;
+    line-height: 1.1em; 
+    text-shadow: 0px 0px 5px #FF0000;
+}
+p:hover{
+    
 }
 p.About{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .en{
     font-family: 'ORTICA LIGHT';
@@ -72,14 +74,14 @@ video{
     border-radius: 0px;
 }
 img{
-    width: 30vw;
+    width: 40vw;
     height: auto;
-    margin-left: 1%;  
+    margin-left: 30%;  
 }
 img.big{
     width: 80vw;
     height: auto;
-    margin-left: 1%;  
+    margin-left: 10%;  
 }
 img.bottommarg{
     margin-bottom: 60px; 
@@ -90,8 +92,8 @@ img.bottommarg{
 .timestamp{
     font-family: monospace;
     text-align: right;
-    font-size: .8em;
-    line-height: .8em; 
+    font-size: 1.1em;
+    line-height: 1em;
     bottom: 10px;
     right: 10px;
     margin: 0%;
@@ -135,7 +137,7 @@ ul {
 img{
     width: 70vw;
     height: auto;
-    /* margin-left: 15%;   */
+    margin-left: 15%;  
 }
 .timestamp{
     display: none;
