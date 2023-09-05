@@ -75,9 +75,7 @@ video{
     border-radius: 0px;
     opacity: .5;
 }
-.mono.half{
-    width: 50vw;
-}
+.half
 img{
     width: 30vw;
     height: auto;

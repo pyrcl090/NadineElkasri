@@ -61,7 +61,7 @@ video{
     right: 0;
     top: 0;
     z-index: -2;
-    opacity: .5;
+    op
 }
 .full{
     width: 100vw;
@@ -73,22 +73,16 @@ video{
     top: 0;
     z-index: -2;
     border-radius: 0px;
-    opacity: .5;
-}
-.mono.half{
-    width: 50vw;
 }
 img{
     width: 30vw;
     height: auto;
     margin-left: 1%;  
-    opacity: .5;
 }
 img.big{
     width: 80vw;
     height: auto;
     margin-left: 1%;  
-    opacity: .5;
 }
 img.bottommarg{
     margin-bottom: 60px; 
