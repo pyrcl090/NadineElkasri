@@ -32,17 +32,12 @@ p{
     font-size: 1.1em;
     line-height: 1em; 
     width: fit-content;
-    
+    filter: blur(3px);
 }
 p:hover{
     filter: blur(0px);
 }
-p.body{
-    filter: blur(3px);
-}
-p.body:hover{
-    filter: blur(0px);
-}
+p.body
 p.About{
     margin-top: 20px;
 }

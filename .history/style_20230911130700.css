@@ -32,17 +32,9 @@ p{
     font-size: 1.1em;
     line-height: 1em; 
     width: fit-content;
-    
+
 }
-p:hover{
-    filter: blur(0px);
-}
-p.body{
-    filter: blur(3px);
-}
-p.body:hover{
-    filter: blur(0px);
-}
+
 p.About{
     margin-top: 20px;
 }
@@ -71,10 +63,11 @@ video{
     z-index: -2;
     opacity: .6;
 }
-video #svid{
+video#svid{
     width: 10vw;
     height: auto;
     position: fixed;
+    left: 0;
     right: 0;
     top: 0;
     z-index: -2;
