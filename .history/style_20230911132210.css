@@ -167,7 +167,7 @@ img{
     display: none;
 }
 p.body{
-    filter: blur(0px);
+    filter: blur(3px);
 }
  }
 
