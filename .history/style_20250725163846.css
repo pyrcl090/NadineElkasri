@@ -31,7 +31,7 @@ p{
     padding-right: 1%;
     font-size: 3.1em;
     line-height: 1em; 
-    width: fit-content;
+    width: 100%;
     
 }
 p:hover{
